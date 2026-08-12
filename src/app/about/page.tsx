@@ -36,7 +36,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl mb-6">Our Studio</h2>
             <p className="text-neutral-600 leading-relaxed mb-4">
               Clothing Alterations Los Angeles is a professional tailoring and
-              alterations studio located at 11885 Tiara St in Valley Village.
+              alterations studio located in Valley Village.
               We serve clients across the San Fernando Valley and greater Los
               Angeles — from Studio City and Sherman Oaks to Burbank and
               Encino.
@@ -89,7 +89,7 @@ export default function AboutPage() {
       <section className="py-16 px-6 text-center">
         <h2 className="text-3xl md:text-4xl mb-4">Come See Us</h2>
         <p className="text-neutral-600 mb-2">
-          11885 Tiara St, Valley Village, CA 91607
+          Valley Village, CA — by appointment only, no walk-ins
         </p>
         <p className="text-neutral-600 mb-8">
           Mon–Sat: 9:00 AM – 6:00 PM · Sunday: Closed

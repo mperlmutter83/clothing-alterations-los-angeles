@@ -25,19 +25,13 @@ const services = [
     title: "Bridal & Wedding Dress Alterations",
     description:
       "Your wedding dress deserves specialist hands. We handle multi-layer gowns, delicate lace, beading and trains — from the first pinning to the final press — with fittings scheduled around your timeline.",
-    items: ["Bodice & side-seam fitting", "Bustles (French, American, ballroom)", "Lace, bead & sequin rework", "Hem, train & veil adjustments"],
+    items: ["Bodice & side-seam fitting", "Bustles (French, American, ballroom)", "Lace, bead & sequin rework", "Hem, train & veil adjustments", "New accessories to bridal gowns to create multiple looks: Lace/Organza/Chiffon jackets, boleros, shrugs, capes and toppers"],
   },
   {
     title: "Formal & Evening Wear",
     description:
-      "Prom gowns, bridesmaid dresses, evening wear and tuxedos fitted for the big night. We work with chiffon, tulle, satin and sequins without damaging delicate fabrics.",
-    items: ["Gown & prom dress fittings", "Bridesmaid alterations", "Tuxedo & dinner jacket fitting", "Strap, neckline & slit adjustments"],
-  },
-  {
-    title: "Suit & Jacket Tailoring",
-    description:
-      "A well-tailored suit changes how you carry yourself. We taper jackets, shorten sleeves with working buttonholes in mind, set the perfect trouser break, and reshape off-the-rack suits to a custom feel.",
-    items: ["Jacket tapering & shaping", "Sleeve shortening", "Trouser hemming & tapering", "Vest & waistcoat fitting"],
+      "Prom gowns, bridesmaid dresses and evening wear fitted for the big night. We work with chiffon, tulle, satin and sequins without damaging delicate fabrics.",
+    items: ["Gown & prom dress fittings", "Bridesmaid alterations", "Strap, neckline & slit adjustments"],
   },
   {
     title: "Repairs & Restyling",

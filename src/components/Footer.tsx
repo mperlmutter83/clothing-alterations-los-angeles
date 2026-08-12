@@ -33,7 +33,7 @@ export default function Footer() {
                 info@clothingalterationslosangeles.com
               </a>
             </li>
-            <li>11885 Tiara St, Valley Village, CA 91607</li>
+            <li>Valley Village, CA 91607</li>
             <li>Mon–Sat: 9:00 AM – 6:00 PM · Sun: Closed</li>
           </ul>
         </div>

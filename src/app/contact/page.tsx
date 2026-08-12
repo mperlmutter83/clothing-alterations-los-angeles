@@ -4,7 +4,7 @@ import LeadForm from "@/components/LeadForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Clothing Alterations Los Angeles in Valley Village for a free alteration quote. Call (310) 961-2888 or visit us at 11885 Tiara St, Valley Village, CA 91607.",
+    "Contact Clothing Alterations Los Angeles in Valley Village for a free alteration quote. Call (310) 961-2888. By appointment only — no walk-ins.",
 };
 
 export default function ContactPage() {
@@ -44,9 +44,9 @@ export default function ContactPage() {
               <li>
                 <p className="text-sm text-neutral-500 mb-1">Studio</p>
                 <p className="text-lg">
-                  11885 Tiara St
+                  Valley Village, CA
                   <br />
-                  Valley Village, CA 91607
+                  By appointment only — no walk-ins
                 </p>
               </li>
               <li>

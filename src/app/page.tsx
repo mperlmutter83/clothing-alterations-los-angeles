@@ -21,12 +21,7 @@ const services = [
   {
     title: "Formal & Evening Wear",
     description:
-      "Gowns, prom dresses and tuxedos fitted for your big night, including delicate fabrics and sequins.",
-  },
-  {
-    title: "Suit & Jacket Tailoring",
-    description:
-      "Jacket tapering, sleeve shortening, trouser breaks and full suit reshaping for a sharp silhouette.",
+      "Gowns and prom dresses fitted for your big night, including delicate fabrics and sequins.",
   },
   {
     title: "Repairs & Restyling",
@@ -38,7 +33,7 @@ const services = [
 const steps = [
   {
     step: "1",
-    title: "Book or Walk In",
+    title: "Book Your Fitting",
     description:
       "Book a fitting online or call us. Bring your garment and the shoes you'll wear with it.",
   },
@@ -216,7 +211,7 @@ export default function Home() {
             Serving the San Fernando Valley &amp; Los Angeles
           </h2>
           <p className="text-neutral-300 mb-8">
-            Our studio is located at 11885 Tiara St in Valley Village — easy to
+            Our studio is located in Valley Village — easy to
             reach from anywhere in the Valley.
           </p>
           <div className="flex flex-wrap justify-center gap-3">

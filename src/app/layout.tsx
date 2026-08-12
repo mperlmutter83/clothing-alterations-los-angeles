@@ -49,7 +49,6 @@ const localBusinessSchema = {
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "11885 Tiara St",
     addressLocality: "Valley Village",
     addressRegion: "CA",
     postalCode: "91607",
