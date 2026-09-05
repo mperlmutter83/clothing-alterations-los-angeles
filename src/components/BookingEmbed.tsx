@@ -7,6 +7,12 @@ export default function BookingEmbed({ bookingKey }: { bookingKey?: string }) {
 
   useEffect(() => {
     const handler = (event: MessageEvent) => {
+      if (event.data?.type === "yescrew:embed:booked") {
+        // GA4/GTM conversion event for confirmed bookings inside the iframe.
+        const dlWindow = window as unknown as { dataLayer?: Record<string, unknown>[] };
+        dlWindow.dataLayer = dlWindow.dataLayer ?? [];
+        dlWindow.dataLayer.push({ event: "book_appointment" });
+      }
       if (event.data?.type === "yescrew:embed:height" && iframeRef.current) {
         iframeRef.current.style.height = event.data.height + "px";
       }
