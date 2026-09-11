@@ -78,6 +78,22 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
       <head>
+        {/* RFM site data - pushed before GTM loads */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  rfm: {
+    schema_version: "1.0",
+    site_id: "clothing_alterations_los_angeles",
+    provider_id: "3600ed51-3d0f-44ce-8cd0-797945036f61",
+    provider_name: "Clothing Alterations Los Angeles",
+    service_category: "clothing_alterations",
+    market: "los_angeles"
+  }
+});`,
+          }}
+        />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
