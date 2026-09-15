@@ -65,6 +65,11 @@ export default function Footer() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link href="/looking-for-work" className="hover:text-gold">
+                Looking for Work
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
