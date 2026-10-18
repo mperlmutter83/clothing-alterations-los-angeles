@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import PhoneClickTracker from "@/components/PhoneClickTracker";
 import Footer from "@/components/Footer";
 
 const playfair = Playfair_Display({
@@ -123,6 +124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
+        <PhoneClickTracker />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

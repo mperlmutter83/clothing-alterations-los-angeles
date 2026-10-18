@@ -54,7 +54,11 @@ export default function Header() {
         <Link href="/contact" className="py-1 hover:text-gold">
           Contact
         </Link>
-        <a href="tel:+13109612888" className="py-1 text-gold font-semibold">
+        <a
+          href="tel:+13109612888"
+          aria-label="Call (310) 961-2888"
+          className="py-1 text-gold font-semibold"
+        >
           Call
         </a>
       </nav>

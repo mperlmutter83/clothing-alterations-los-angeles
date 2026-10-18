@@ -12,6 +12,7 @@ export default function BookingEmbed({ bookingKey }: { bookingKey?: string }) {
         const dlWindow = window as unknown as { dataLayer?: Record<string, unknown>[] };
         dlWindow.dataLayer = dlWindow.dataLayer ?? [];
         dlWindow.dataLayer.push({ event: "book_appointment" });
+        dlWindow.dataLayer.push({ event: "appointment_booked" });
       }
       if (event.data?.type === "yescrew:embed:height" && iframeRef.current) {
         iframeRef.current.style.height = event.data.height + "px";
