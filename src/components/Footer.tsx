@@ -33,7 +33,7 @@ export default function Footer() {
                 info@clothingalterationslosangeles.com
               </a>
             </li>
-            <li>5250 Lankershim Blvd</li>
+            <li>5250 Lankershim Blvd, Suite 504</li>
             <li>North Hollywood, CA 91601</li>
             <li>Mon–Sat: 9:00 AM – 6:00 PM · Sun: Closed</li>
           </ul>

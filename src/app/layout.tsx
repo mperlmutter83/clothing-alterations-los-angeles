@@ -50,7 +50,7 @@ const localBusinessSchema = {
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "5250 Lankershim Blvd",
+    streetAddress: "5250 Lankershim Blvd, Suite 504",
     addressLocality: "North Hollywood",
     addressRegion: "CA",
     postalCode: "91601",

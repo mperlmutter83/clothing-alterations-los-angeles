@@ -89,7 +89,7 @@ export default function AboutPage() {
       <section className="py-16 px-6 text-center">
         <h2 className="text-3xl md:text-4xl mb-4">Come See Us</h2>
         <p className="text-neutral-600 mb-2">
-          5250 Lankershim Blvd, North Hollywood, CA 91601 — by appointment only, no walk-ins
+          5250 Lankershim Blvd, Suite 504, North Hollywood, CA 91601 — by appointment only, no walk-ins
         </p>
         <p className="text-neutral-600 mb-8">
           Mon–Sat: 9:00 AM – 6:00 PM · Sunday: Closed

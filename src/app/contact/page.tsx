@@ -44,7 +44,7 @@ export default function ContactPage() {
               <li>
                 <p className="text-sm text-neutral-500 mb-1">Studio</p>
                 <p className="text-lg">
-                  5250 Lankershim Blvd
+                  5250 Lankershim Blvd, Suite 504
                   North Hollywood, CA 91601
                   <br />
                   By appointment only — no walk-ins
