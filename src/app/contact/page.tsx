@@ -4,7 +4,7 @@ import LeadForm from "@/components/LeadForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Clothing Alterations Los Angeles in Valley Village for a free alteration quote. Call (310) 961-2888. By appointment only — no walk-ins.",
+    "Contact Clothing Alterations Los Angeles in North Hollywood for a free alteration quote. Call (310) 961-2888. By appointment only — no walk-ins.",
 };
 
 export default function ContactPage() {
@@ -44,7 +44,8 @@ export default function ContactPage() {
               <li>
                 <p className="text-sm text-neutral-500 mb-1">Studio</p>
                 <p className="text-lg">
-                  Valley Village, CA
+                  5250 Lankershim Blvd
+                  North Hollywood, CA 91601
                   <br />
                   By appointment only — no walk-ins
                 </p>

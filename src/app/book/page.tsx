@@ -4,7 +4,7 @@ import BookingEmbed from "@/components/BookingEmbed";
 export const metadata: Metadata = {
   title: "Book a Fitting",
   description:
-    "Book your alteration fitting appointment online with Clothing Alterations Los Angeles in Valley Village. Choose a time that works for you.",
+    "Book your alteration fitting appointment online with Clothing Alterations Los Angeles in North Hollywood. Choose a time that works for you.",
 };
 
 export default function BookPage() {

@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Clothing Alterations Los Angeles is a tailoring studio in Valley Village specializing in expert alterations, bridal fittings and garment repairs. Call (310) 961-2888.",
+    "Clothing Alterations Los Angeles is a tailoring studio in North Hollywood specializing in expert alterations, bridal fittings and garment repairs. Call (310) 961-2888.",
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
           About Clothing Alterations Los Angeles
         </h1>
         <p className="text-neutral-300 max-w-2xl mx-auto">
-          A Valley Village tailoring studio where every garment gets
+          A North Hollywood tailoring studio where every garment gets
           crafts-level attention.
         </p>
       </section>
@@ -36,7 +36,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl mb-6">Our Studio</h2>
             <p className="text-neutral-600 leading-relaxed mb-4">
               Clothing Alterations Los Angeles is a professional tailoring and
-              alterations studio located in Valley Village.
+              alterations studio located in North Hollywood.
               We serve clients across the San Fernando Valley and greater Los
               Angeles — from Studio City and Sherman Oaks to Burbank and
               Encino.
@@ -89,7 +89,7 @@ export default function AboutPage() {
       <section className="py-16 px-6 text-center">
         <h2 className="text-3xl md:text-4xl mb-4">Come See Us</h2>
         <p className="text-neutral-600 mb-2">
-          Valley Village, CA — by appointment only, no walk-ins
+          5250 Lankershim Blvd, North Hollywood, CA 91601 — by appointment only, no walk-ins
         </p>
         <p className="text-neutral-600 mb-8">
           Mon–Sat: 9:00 AM – 6:00 PM · Sunday: Closed

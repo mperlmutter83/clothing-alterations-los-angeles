@@ -24,7 +24,7 @@ export default async function BlogPage() {
         </h1>
         <p className="text-neutral-300 max-w-2xl mx-auto">
           Fit guides, garment care tips and alteration know-how from our
-          Valley Village tailoring studio.
+          North Hollywood tailoring studio.
         </p>
       </section>
 

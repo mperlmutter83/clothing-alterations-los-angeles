@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://clothingalterationslosangeles.com"),
   title: {
     default:
-      "Clothing Alterations Los Angeles | Expert Tailoring in Valley Village",
+      "Clothing Alterations Los Angeles | Expert Tailoring in North Hollywood",
     template: "%s | Clothing Alterations Los Angeles",
   },
   description:
-    "Expert clothing alterations and tailoring in Los Angeles. Hemming, resizing, bridal & wedding dress alterations, suit tailoring and repairs in Valley Village. Call (310) 961-2888.",
+    "Expert clothing alterations and tailoring in Los Angeles. Hemming, resizing, bridal & wedding dress alterations, suit tailoring and repairs in North Hollywood. Call (310) 961-2888.",
   openGraph: {
     title: "Clothing Alterations Los Angeles",
     description:
@@ -50,9 +50,10 @@ const localBusinessSchema = {
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Valley Village",
+    streetAddress: "5250 Lankershim Blvd",
+    addressLocality: "North Hollywood",
     addressRegion: "CA",
-    postalCode: "91607",
+    postalCode: "91601",
     addressCountry: "US",
   },
   openingHoursSpecification: [

@@ -2,6 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import LeadForm from "@/components/LeadForm";
 
+export const metadata = {
+  alternates: {
+    canonical: "https://clothingalterationslosangeles.com",
+  },
+};
+
 const services = [
   {
     title: "Hemming & Length Adjustments",
@@ -78,7 +84,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-charcoal/70" />
         <div className="relative max-w-4xl mx-auto px-6 py-28 md:py-36 text-center">
           <p className="text-sm tracking-[0.3em] uppercase text-gold mb-4">
-            Valley Village · Los Angeles
+            North Hollywood · Los Angeles
           </p>
           <h1 className="text-4xl md:text-6xl mb-6">
             Expert Clothing Alterations in Los Angeles
@@ -145,7 +151,7 @@ export default function Home() {
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
             <Image
               src="/images/lace-work.jpg"
-              alt="Hand-sewing delicate lace on a wedding dress during bridal alterations in Valley Village"
+              alt="Hand-sewing delicate lace on a wedding dress during bridal alterations in North Hollywood"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"
@@ -211,7 +217,7 @@ export default function Home() {
             Serving the San Fernando Valley &amp; Los Angeles
           </h2>
           <p className="text-neutral-300 mb-8">
-            Our studio is located in Valley Village — easy to
+            Our studio is located in North Hollywood — easy to
             reach from anywhere in the Valley.
           </p>
           <div className="flex flex-wrap justify-center gap-3">

@@ -33,7 +33,8 @@ export default function Footer() {
                 info@clothingalterationslosangeles.com
               </a>
             </li>
-            <li>Valley Village, CA 91607</li>
+            <li>5250 Lankershim Blvd</li>
+            <li>North Hollywood, CA 91601</li>
             <li>Mon–Sat: 9:00 AM – 6:00 PM · Sun: Closed</li>
           </ul>
         </div>

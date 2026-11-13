@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Alteration & Tailoring Services",
   description:
-    "Hemming, resizing, bridal & wedding dress alterations, suit tailoring, formal wear fittings and garment repairs in Valley Village, Los Angeles. Call (310) 961-2888.",
+    "Hemming, resizing, bridal & wedding dress alterations, suit tailoring, formal wear fittings and garment repairs in North Hollywood, Los Angeles. Call (310) 961-2888.",
 };
 
 const services = [
